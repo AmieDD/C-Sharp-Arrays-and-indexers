@@ -6,7 +6,7 @@ Code, Cosplay and Game - www.amiedd.com
 
 using System;
 
-class Operators 
+class TempRecord 
 {
    // Array of temperature values
     private float[] temps = new float[10] { 56.2F, 56.7F, 56.5F, 56.9F, 58.8F, 
