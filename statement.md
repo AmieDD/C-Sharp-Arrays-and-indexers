@@ -36,15 +36,15 @@ class MainClass
 {
     static void Main()
     {
-        TempRecord tempRecord = new TempRecord();
+        PotionStrength potionStrength = new PotionStrength();
         // Use the indexer's set accessor
-        tempRecord[3] = 58.3F;
-        tempRecord[5] = 60.1F;
+        potionStrength[3] = 58.3F;
+        potionStrength[5] = 60.1F;
 
         // Use the indexer's get accessor
         for (int i = 0; i < 10; i++)
         {
-            System.Console.WriteLine("Element #{0} = {1}", i, tempRecord[i]);
+            System.Console.WriteLine("Element #{0} = {1}", i, potionStrength[i]);
         }
 
     }
