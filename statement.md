@@ -50,16 +50,16 @@ class MainClass
     }
 }
 /* Output:
-        Element #0 = 56.2
-        Element #1 = 56.7
-        Element #2 = 56.5
-        Element #3 = 58.3
-        Element #4 = 58.8
-        Element #5 = 60.1
-        Element #6 = 65.9
-        Element #7 = 62.1
-        Element #8 = 59.2
-        Element #9 = 57.5
+        Potion #0 = 56.2
+        Potion #1 = 56.7
+        Potion #2 = 56.5
+        Potion #3 = 58.3
+        Potion #4 = 58.8
+        Potion #5 = 60.1
+        Potion #6 = 65.9
+        Potion #7 = 62.1
+        Potion #8 = 59.2
+        Potion #9 = 57.5
     */
 
 ```
