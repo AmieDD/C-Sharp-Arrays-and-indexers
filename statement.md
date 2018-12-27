@@ -3,20 +3,15 @@
 Code, Cosplay and Game - www.amiedd.com
 
 ```C# runnable
-// { autofold
+
 using System;
 
-class Hello 
+class Operators 
 {
     static void Main() 
     {
     int[] fib; // fib is of type int[], "array of int".
-fib = new int[100]; // Create a 100-element int array.
- }
-
-Console.WriteLine("Hello World!");
-
-// { autofold
+    fib = new int[100]; // Create a 100-element int array.
     }
 }
 // }
