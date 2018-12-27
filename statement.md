@@ -49,7 +49,7 @@ class MainClass
 
     }
 }
-/* Output:
+   /* Output display:
         Potion #0 = 56.2
         Potion #1 = 56.7
         Potion #2 = 56.5
