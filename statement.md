@@ -1,6 +1,6 @@
-# Welcome!
+# C# [] Operator - Arrays and indexers
 
-This C# template lets you get started quickly with a simple one-page playground.
+Code, Cosplay and Game - www.amiedd.com
 
 ```C# runnable
 // { autofold
@@ -10,7 +10,9 @@ class Hello
 {
     static void Main() 
     {
-// }
+    int[] fib; // fib is of type int[], "array of int".
+fib = new int[100]; // Create a 100-element int array.
+ }
 
 Console.WriteLine("Hello World!");
 
@@ -20,6 +22,6 @@ Console.WriteLine("Hello World!");
 // }
 ```
 
-# Advanced usage
+# C# [] Operator - Arrays and indexers
 
-If you want a more complex example (external libraries, viewers...), use the [Advanced C# template](https://tech.io/select-repo/386)
+Square brackets ([]) are used for arrays, indexers, and attributes. They can also be used with pointers.
