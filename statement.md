@@ -6,14 +6,12 @@ Code, Cosplay and Game - www.amiedd.com
 
 using System;
 
-class TempRecord 
+class PotionStrength 
 {
-   // Array of temperature values
+   // Array of Potion Strength values
     private float[] temps = new float[10] { 56.2F, 56.7F, 56.5F, 56.9F, 58.8F, 
                                             61.3F, 65.9F, 62.1F, 59.2F, 57.5F };
 
-    // To enable client code to validate input 
-    // when accessing your indexer.
     public int Length
     {
         get { return temps.Length; }
@@ -48,10 +46,6 @@ class MainClass
         {
             System.Console.WriteLine("Element #{0} = {1}", i, tempRecord[i]);
         }
-
-        // Keep the console window open in debug mode.
-        System.Console.WriteLine("Press any key to exit.");
-        System.Console.ReadKey();
 
     }
 }
