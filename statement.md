@@ -13,6 +13,8 @@ class Operators
     System.Collections.Hashtable h = new System.Collections.Hashtable();
     h["a"] = 666; // Using a string as the index.
     
+    Console.WriteLine(h);
+    
     }
 }
 
