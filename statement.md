@@ -16,7 +16,7 @@ class PotionStrength
     {
         get { return potions.Length; }
     }
-    // Indexer declaration.
+    // Declare index.
     // If index is out of range, the potions array will throw the exception.
     public float this[int index]
     {
@@ -37,11 +37,11 @@ class MainClass
     static void Main()
     {
         PotionStrength potionStrength = new PotionStrength();
-        // Use the indexer's set accessor
+        // SET indexer accessor
         potionStrength[3] = 58.3F;
         potionStrength[5] = 60.1F;
 
-        // Use the indexer's get accessor
+        // GET indexer accessor
         for (int i = 0; i < 10; i++)
         {
             System.Console.WriteLine("Potion #{0} = {1}", i, potionStrength[i]);
